@@ -1,5 +1,6 @@
 package com.codesiders.ridetoupq;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -92,6 +93,9 @@ public class main extends AppCompatActivity
 
         } else if (id == R.id.nav_send) {
 
+        }else if(id == R.id.log_in){
+            Intent Access = new Intent(getApplicationContext(),LoginActivity.class);
+            startActivity(Access);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

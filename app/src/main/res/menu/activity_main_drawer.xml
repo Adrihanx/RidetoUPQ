@@ -18,6 +18,11 @@
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
             android:title="Tools" />
+        <item
+            android:id="@+id/log_in"
+            android:icon="@drawable/ic_action_access"
+            android:title="Acceder"
+            />
     </group>
 
     <item android:title="Communicate">
