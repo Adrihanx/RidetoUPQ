@@ -19,4 +19,8 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="layoutBC">Bienvenido Comunidad</string>
+    <string name="ingresaro_como">Ingresaro como:</string>
+    <string name="usuario">Usuario</string>
+    <string name="conductor">Conductor</string>
 </resources>
