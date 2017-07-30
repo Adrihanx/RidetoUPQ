@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/curp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingrese_el_curp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/campocurp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/curp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/nombre1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu nombre"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nombre"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/apaterno1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apellido_paterno"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/campo_apa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/apellido_paterno_campo"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/amaterno1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apellido_materno"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/campo_ama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/apellido_materno_campo"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/correo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingresa_tu_correo"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/campo_correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/correo"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/fecha1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha_de_nacimiento"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <DatePicker
+        android:id="@+id/campo_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1.13" />
+
+    <Button
+        android:id="@+id/boton_seguir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/continuar"
+        android:textAlignment="center"
+        android:layout_weight="0.40" />
+</LinearLayout>

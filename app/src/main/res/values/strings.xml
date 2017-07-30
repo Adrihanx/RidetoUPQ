@@ -25,4 +25,15 @@
     <string name="conductor">Conductor</string>
     <string name="basura">u</string>
     <string name="avanzar">avanzar</string>
+    <string name="ingrese_el_curp">Ingrese el curp</string>
+    <string name="curp">CURP</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido_paterno">Apellido Paterno</string>
+    <string name="apellido_paterno_campo">Apellido paterno</string>
+    <string name="apellido_materno">Apellido Materno</string>
+    <string name="apellido_materno_campo">Apellido Materno</string>
+    <string name="ingresa_tu_correo">Ingresa tu correo</string>
+    <string name="correo">Correo</string>
+    <string name="fecha_de_nacimiento">Fecha de Nacimiento</string>
+    <string name="continuar">Continuar</string>
 </resources>
