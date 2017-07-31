@@ -35,6 +35,7 @@ public class main extends AppCompatActivity
                 startActivityForResult(intent, 0);
             }
         });
+        
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
