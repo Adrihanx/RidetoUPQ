@@ -50,7 +50,7 @@
         android:textColor="@android:color/background_light" />
 
     <Button
-        android:id="@+id/idCondcutor"
+        android:id="@+id/btnConductor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.07"
