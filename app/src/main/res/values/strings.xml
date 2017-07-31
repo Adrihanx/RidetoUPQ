@@ -36,4 +36,12 @@
     <string name="correo">Correo</string>
     <string name="fecha_de_nacimiento">Fecha de Nacimiento</string>
     <string name="continuar">Continuar</string>
+    <string name="input_placa">Ingresa la placa</string>
+    <string name="placa">Placa</string>
+    <string name="input_color">Ingresa el color</string>
+    <string name="model_auto">Modelo del Auto</string>
+    <string name="CarLicense">Tarjeta de circulación</string>
+    <string name="link">Link</string>
+    <string name="Continue">Continuar</string>
+    <string name="back">Regresar</string>
 </resources>
